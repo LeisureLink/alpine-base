@@ -1,7 +1,7 @@
-FROM alpine:3.2
+FROM alpine:3.3
 MAINTAINER LeisureLink Tech <techteam@leisurelink.com>
 
-ENV S6_VERSION=1.17.1.1
+ENV S6_VERSION=1.17.2.0
 
 #
 # Light weight process manager overlay, built for docker.
